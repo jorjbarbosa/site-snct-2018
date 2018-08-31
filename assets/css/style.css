@@ -1,0 +1,140 @@
+html,
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #f4f4f4;
+}
+
+section {
+  min-height: 100vh;
+}
+.section-header {
+  text-align: center;
+  margin: 30px 0;
+  padding-bottom: 20px;
+  border-bottom: #a9e620 1px solid;
+  font-weight: 200;
+}
+#principal {
+  background-image: url('/assets/images/background_principal.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 100vh; */
+  width: 100%;
+  position: relative;
+  resize: vertical;
+  overflow: auto;
+}
+#nav {
+  transition: 0.5s;
+  margin-bottom: 50px;
+}
+#info {
+  color: #fff;
+  font-size: 20px;
+  line-height: 50%;
+  margin-top: 50px;
+}
+#info i {
+  color: #a9e620;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+.content {
+  position: absolute;
+  text-align: center;
+  resize: vertical;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content h2 {
+  color: #ffffff;
+  font-weight: 300;
+}
+.content h3 {
+  color: #a9e620;
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+#timer {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+/* Sobre */
+/* #sobre {
+  height: 100vh;
+} */
+#sobre .button {
+  text-align: center;
+}
+#sobre .button a {
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+/* Redes Sociais */
+#social {
+  text-align: center;
+  padding: 20px;
+}
+#social p {
+  display: inline-block;
+  font-size: 20px;
+  margin: 15px;
+  text-align: justify;
+}
+#carouselExampleControls {
+  width: 70%;
+  margin: auto;
+}
+#programacao i {
+  font-size: 100px;
+}
+#bg-icet {
+  background-image: url('../images/bg-icet.JPG');
+  background-blend-mode: overlay;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 100vh; */
+  width: 100%;
+}
+.submissao-item {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+#organizacao {
+  text-align: center;
+}
+.img-parceiros {
+  margin: 10px 30px;
+}
+#app img {
+  margin: 15px auto;
+  width: 50%;
+}
+footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  line-height: 0.5;
+  height: 100px;
+  bottom: 0;
+  padding: 20px 0;
+}
+/* DESIGN RESPONSIVO */
+@media only screen and (max-width: 600px) {
+  #img-app,
+  #img-programacao {
+    display: none;
+  }
+  section {
+    min-height: 100% !important;
+  }
+}
