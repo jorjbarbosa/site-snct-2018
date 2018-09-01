@@ -11,7 +11,7 @@ body {
   font-weight: 200;
 }
 #principal {
-  background-image: url('/assets/images/background_principal.jpg'),
+  background-image: url('../images/background_principal.jpg'),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
   background-size: cover;
