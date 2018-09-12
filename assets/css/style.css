@@ -91,6 +91,9 @@ body {
 #programacao i {
   font-size: 100px;
 }
+.submissao-item i {
+  font-size: 80px;
+}
 #bg-icet {
   background-image: url('../images/bg-icet.JPG');
   background-blend-mode: overlay;

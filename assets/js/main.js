@@ -37,19 +37,29 @@ let x = setInterval(function() {
 
 // Menu Scroll
 $(document).ready(() => {
-  $(window).scroll(() => {
-    if ($(document).scrollTop() > 10) {
+  if ($(window).width() > 768) {
+    $(window).scroll(() => {
+      if ($(document).scrollTop() > 10) {
+        $('#nav').removeClass('bg-transparent');
+        $('#nav').removeClass('navbar-dark');
+        $('#nav').addClass('fixed-top');
+        $('#nav').addClass('bg-light');
+        $('#nav').addClass('navbar-light');
+      } else {
+        $('#nav').removeClass('fixed-top, bg-light, navbar-light');
+        $('#nav').addClass('bg-transparent');
+        $('#nav').addClass('navbar-dark');
+      }
+    });
+  } else {
+    if ($(window).width() < 600) {
       $('#nav').removeClass('bg-transparent');
       $('#nav').removeClass('navbar-dark');
       $('#nav').addClass('fixed-top');
       $('#nav').addClass('bg-light');
       $('#nav').addClass('navbar-light');
-    } else {
-      $('#nav').removeClass('fixed-top, bg-light, navbar-light');
-      $('#nav').addClass('bg-transparent');
-      $('#nav').addClass('navbar-dark');
     }
-  });
+  }
 });
 //
 (function($) {
@@ -88,3 +98,19 @@ $(document).ready(() => {
     offset: 54
   });
 })(jQuery); // End of use
+
+// (function($) {
+//   var $window = $(window);
+
+//   function resize() {
+//     if ($window.width() < 600) {
+//       $('#nav').removeClass('bg-transparent');
+//       $('#nav').removeClass('navbar-dark');
+//       $('#nav').addClass('fixed-top');
+//       $('#nav').addClass('bg-light');
+//       $('#nav').addClass('navbar-light');
+//     }
+//   }
+
+//   $window.resize(resize).trigger('resize');
+// })(jQuery);
