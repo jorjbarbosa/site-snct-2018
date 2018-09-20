@@ -10,6 +10,9 @@ body {
   border-bottom: #a9e620 1px solid;
   font-weight: 200;
 }
+.bg-dark {
+  background-color: #c7c7c7 !important;
+}
 #principal {
   background-image: url('../images/background_principal.jpg'),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -119,7 +122,12 @@ body {
 }
 
 .img-parceiros {
+  display: inline-block;
   margin: 12px 30px;
+  width: 100px;
+}
+#seduc {
+  width: 200px;
 }
 .parceiros-div {
   text-align: center;
