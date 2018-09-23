@@ -172,4 +172,7 @@ footer {
     /* display: none; */
     font-size: 18px;
   }
+  .btn-pos {
+    margin-left: -20px;
+  }
 }
