@@ -13,6 +13,15 @@ body {
 .bg-dark {
   background-color: #c7c7c7 !important;
 }
+.color-white {
+  color: #c7c1e8;
+}
+.color-orange {
+  color: #f8a300;
+}
+.responsavel-color {
+  color: #e6358d;
+}
 #principal {
   background-image: url('../images/background_principal.jpg'),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -94,6 +103,48 @@ body {
 #programacao i {
   font-size: 100px;
 }
+
+.card-purple {
+  background-color: #6035bb !important;
+  padding: 25px;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #f8a300 !important;
+  background-color: transparent;
+  border: none;
+}
+.nav-tabs {
+  border: none;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border: none;
+  color: #f8a300 !important;
+}
+.card-programacao-1 {
+  border-radius: 15px;
+}
+.programacao {
+  background-color: #dbd6e4;
+  /* padding: 25px 0; */
+  height: 900px;
+}
+.horario {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fdf6e7;
+  width: 250px;
+  text-align: center;
+  border-radius: 15px;
+}
+.tab-content {
+  height: 850px;
+  overflow: auto;
+}
+/* SUBMISSAO */
 .submissao-item i {
   font-size: 80px;
 }
