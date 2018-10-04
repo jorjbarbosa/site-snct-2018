@@ -204,8 +204,8 @@ body {
 
 .img-parceiros {
   display: inline-block;
-  margin: 12px 30px;
-  width: 100px;
+  margin: 20px 20px;
+  width: 120px;
 }
 #seduc {
   width: 200px;
@@ -213,6 +213,7 @@ body {
 .parceiros-div {
   text-align: center;
 }
+
 #app img {
   margin: 15px auto;
   width: 50%;
