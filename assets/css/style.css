@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   background-color: #f4f4f4;
 }
 .section-header {
@@ -13,6 +13,10 @@ body {
 .bg-dark {
   background-color: #c7c7c7 !important;
 }
+.btn-group-lg > .btn,
+.btn-lg {
+  border-radius: 2rem;
+}
 .color-white {
   color: #c7c1e8;
 }
@@ -23,7 +27,7 @@ body {
   color: #e6358d;
 }
 #principal {
-  background-image: url('../images/background_principal.jpg'),
+  background-image: url("../images/background_principal.jpg"),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
   background-size: cover;
@@ -106,7 +110,7 @@ body {
 
 .card-purple {
   background-color: #6035bb !important;
-  padding: 25px;
+  padding: 25px 208px;
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
@@ -144,12 +148,28 @@ body {
   height: 850px;
   overflow: auto;
 }
+
+.foto-palestrante {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+.foto-palestrante img {
+  width: 150px;
+  height: 150px;
+}
+.evento-info {
+  background-color: red;
+  width: 600px;
+}
 /* SUBMISSAO */
 .submissao-item i {
   font-size: 80px;
 }
 #bg-icet {
-  background-image: url('../images/bg-icet.JPG');
+  background-image: url("../images/bg-icet.JPG");
   background-blend-mode: overlay;
   background-size: contain;
   background-repeat: no-repeat;
@@ -225,5 +245,17 @@ footer {
   }
   .btn-pos {
     margin-left: -20px;
+  }
+  .card-purple {
+    padding: 0 40px;
+  }
+  .foto-palestrante {
+    margin: auto;
+  }
+  .card-programacao-1 {
+    text-align: center;
+  }
+  .horario {
+    margin: auto;
   }
 }
