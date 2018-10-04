@@ -17,6 +17,16 @@ body {
 .btn-lg {
   border-radius: 2rem;
 }
+.btn-primary {
+  background-color: #6035bb;
+  color: #f8a300;
+  border: none;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #7758b9;
+  color: #f8a300;
+}
 .color-white {
   color: #c7c1e8;
 }
@@ -208,7 +218,7 @@ body {
   width: 50%;
 }
 footer {
-  background-color: #000;
+  background-color: #6035bb;
   text-align: center;
   color: #fff;
   line-height: 0.5;
