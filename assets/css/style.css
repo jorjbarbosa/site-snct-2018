@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   background-color: #f4f4f4;
 }
 .section-header {
@@ -40,7 +40,7 @@ body {
   color: #e6358d;
 }
 #principal {
-  background-image: url("../images/background_principal.jpg"),
+  background-image: url('../images/background_principal.jpg'),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
   background-size: cover;
@@ -123,7 +123,7 @@ body {
 
 .card-purple {
   background-color: #6035bb !important;
-  padding: 25px 200px;
+  padding: 25px 168px;
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
@@ -148,6 +148,19 @@ body {
   background-color: #dbd6e4;
   /* padding: 25px 0; */
   height: 900px;
+}
+table h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6035bb;
+}
+table th {
+  background-color: #7758b9 !important;
+  color: #fff;
+  border: none;
+}
+table td {
+  padding: 25px !important;
 }
 .horario {
   font-size: 20px;
@@ -182,7 +195,7 @@ body {
   font-size: 80px;
 }
 #bg-icet {
-  background-image: url("../images/bg-icet.JPG");
+  background-image: url('../images/bg-icet.JPG');
   background-blend-mode: overlay;
   background-size: contain;
   background-repeat: no-repeat;
@@ -266,9 +279,9 @@ footer {
   .foto-palestrante {
     margin: auto;
   }
-  .card-programacao-1 {
+  /* .card-programacao-1 {
     text-align: center;
-  }
+  } */
   .horario {
     margin: auto;
   }
