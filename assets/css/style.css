@@ -136,11 +136,18 @@ body {
   font-weight: bold;
 }
 
+#informes {
+  min-height: 100vh;
+}
+.aviso p {
+  line-height: 10px;
+}
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
   border: none;
   color: #f8a300 !important;
 }
+
 .card-programacao-1 {
   border-radius: 15px;
 }
