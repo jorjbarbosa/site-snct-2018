@@ -62,6 +62,10 @@ body {
   line-height: 50%;
   margin-top: 50px;
 }
+.line-0 {
+  line-height: 20px !important;
+}
+
 #info i {
   color: #a9e620;
 }
@@ -89,7 +93,7 @@ body {
 #timer {
   color: #fff;
   font-size: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 /* Sobre */
 /* #sobre {
@@ -150,11 +154,21 @@ body {
 
 .card-programacao-1 {
   border-radius: 15px;
+  line-height: 8px;
 }
 .programacao {
   background-color: #dbd6e4;
-  /* padding: 25px 0; */
-  height: 900px;
+
+  min-height: 900px;
+}
+.avisos {
+  padding: 30px;
+}
+.nav-tab-aviso {
+  padding: 0 293px !important;
+}
+.card-aviso {
+  padding: 30px;
 }
 table h4 {
   font-size: 20px;
@@ -185,17 +199,6 @@ table td {
   overflow: auto;
 }
 
-.foto-palestrante {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  text-align: center;
-}
-.foto-palestrante img {
-  width: 150px;
-  height: 150px;
-}
 .evento-info {
   background-color: red;
   width: 600px;
@@ -291,9 +294,16 @@ footer {
   }
   .card-programacao-1 {
     text-align: center;
+    line-height: 20px;
+  }
+  .aviso p {
+    line-height: 20px !important;
   }
   .horario {
     margin: auto;
+  }
+  .nav-tab-aviso {
+    padding: 0 50px !important;
   }
   #artigo,
   #resumo,

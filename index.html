@@ -56,6 +56,9 @@
             <li class="nav-item scroll">
               <a class="nav-link scroll" href="#app">Aplicativo</a>
             </li>
+            <li class="nav-item scroll">
+              <a class="nav-link scroll" href="anais/index.html">Anais do Evento</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
@@ -74,8 +77,9 @@
 
       <div class="content">
         <h2 class="animated fadeInDown delay-1s">XII Semana Nacional de Ciência e Tecnologia<br>de Itacoatiara</h2>
-        <h3>Ciência para a redução das desigualdades</h3>
-        <p id="timer"></p>
+        <h3>Ciência para a Redução das Desigualdades</h3>
+        <!-- <p id="timer"></p> -->
+        <h3 style="color: red"><strong>VEJA A SEÇÃO DE INFORMES NO FINAL DO SITE</strong></h3>
         <div id="info">
           <p><i class="far fa-calendar-alt"></i> 15 à 19 de Outubro, 2018</p>
           <p><i class="fas fa-map-marker-alt"></i> Rua Nossa Senhora do Rosário, 3863, ICET/UFAM</p>
@@ -1284,14 +1288,26 @@
             </table>
           </div>
           <div class="tab-pane fade padding-prog" id="conic" role="tabpanel" aria-labelledby="conic-tab">
-            <div class="text-center mt-4">
-              <h4 class="color-purple">
-                XXVII Congresso de Iniciação Científica (CONIC)
-              </h4>
-              <p><strong>DIA: 17/10 – Área Externa (Bloco A) – HORÁRIO: 9h-11h e 15h-17h</strong></p>
-              <p>- Das 9h às 11h serão expostos os trabalhos das áreas de: Ciências Agrárias, Ciências Biológicas,
-                Ciências da Saúde e Ciências Sociais Aplicadas</p>
-              <p>- Das 15h às 17h serão expostos os trabalhos da área de: Ciências Exatas da Terra</p>
+            <div class="mt-4">
+              <div class="text-center">
+                <h4 class="color-purple">
+                  XXVII Congresso de Iniciação Científica (CONIC)
+                </h4>
+                <p><strong>DIA: 17/10 – Área Externa (Bloco A) – HORÁRIO: 9h-11h e 15h-17h</strong></p>
+                <p>- Das 9h às 11h serão expostos os trabalhos das áreas de: Ciências Agrárias, Ciências Biológicas,
+                  Ciências da Saúde e Ciências Sociais Aplicadas</p>
+                <p>- Das 15h às 17h serão expostos os trabalhos da área de: Ciências Exatas da Terra</p>
+
+                <h4 style="color: red">A premiação ocorrerá durante o encerramento da SNCT 2018, no dia 19/10 às 16h no
+                  Auditório</h4>
+              </div>
+              <p>Serão Premiados (medalhas) os: </p>
+              <ul>
+                <li>5 Primeiros da Área de Ciências Exatas e da Terra</li>
+                <li>2 Primeiros da Área de Ciências Agrárias</li>
+                <li>Primeiro da Área de Ciências Biológicas</li>
+                <li>Primeiro da Área de Ciências da Saúde e Ciências Sociais Aplicadas</li>
+              </ul>
             </div>
           </div>
           <div class="tab-pane fade padding-prog" id="ppcgtra" role="tabpanel" aria-labelledby="ppcgtra-tab">
@@ -1640,39 +1656,136 @@
   <section id="informes">
     <div class="container">
       <h1 class="section-header">Informes</h1>
-      <div class="card">
-        <div class="card-body">
-          <div class="aviso">
-            <h4>Palestra Cancelada</h4>
-            <p><strong>Título:</strong> Utilização de Biocarvão na Manutenção da Fertilidade do Solo na Olericultura</p>
-            <p><strong>Palestrante:</strong> Simão Corrêa da Silva</p>
+
+
+      <!-- Quadro de Informes -->
+      <div class="
+        card text-center">
+        <div class="card-body card-purple text-center">
+          <ul class="nav nav-tabs nav-tab-aviso" id="avisosTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active color-white" id="avisos-tab" data-toggle="tab" href="#avisos-tab" role="tab"
+                aria-controls="avisos-tab" aria-selected="true">QUADRO DE AVISOS<br></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="tab-content" id="avisosTabContent">
+        <div class="programacao avisos">
+          <div class="tab-pane fade show active" id="avisos-tab" role="tabpanel" aria-labelledby="avisos-tab">
+            <div class="card card-programacao-1">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>INSCRIÇÃO</h4>
+                  <p class="line-0">A inscrição no evento dá direito a você de participar das seguintes atividades:
+                    Palestras,
+                    Exposições, CONIC e Apresentações dos Artigos e Resumos</p>
+                  <p>As inscrições estão encerradas</p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-programacao-1 mt-4">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>CERTIFICADOS</h4>
+                  <p class="line-0">Será notificado no site do evento quando e onde os CERTIFICADOS estarão disponíveis
+                    (a partir de
+                    70 dias após o término do evento).</p>
+                  <p class="line-0">Serão emitidos duas modalidades de certificados: Evento: contendo a carga horária
+                    total das seguintes atividades: Palestras, Exposições, CONIC e Apresentações dos Artigos e Resumos.
+                    Minicurso: com a carga horária de cada minicurso em que participante esteve presente</p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-programacao-1 mt-4">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>MINICURSO</h4>
+                  <p>Os minicursos terão carga horária de quatro horas ou seis horas.</p>
+                  <p>É exigida a presença mínima de 100% do total de horas para receber o certificado de participação.</p>
+                  <p>Quem não participou do primeiro dia não poderá mais participar dos demais dias.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-programacao-1 mt-4">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>INSCRIÇÕES ABERTAS NOS MINICURSOS – 15 VAGAS</h4>
+                  <p><strong>Título:</strong> Uso de Metodologias Ativas na Educação Superior (Turma 1 – T.1)</p>
+                  <p><strong>Palestrante:</strong> Prof. Dr. Geraldo Alécio de Oliveira</p>
+                  <p><strong>Data/Horário:</strong> 16/10 (14h-18h) e 17/10 (08h-18h)</p>
+                  <p><strong>Local:</strong> Sala 205 – Bloco A</p>
+                  <br><br>
+                  <p><strong>Título:</strong> Uso de Metodologias Ativas na Educação Superior (Turma 1 – T.1)</p>
+                  <p><strong>Palestrante:</strong> Prof. Dr. Geraldo Alécio de Oliveira</p>
+                  <p><strong>Data/Horário:</strong> 18/10 (08h-18h) e 19/10 (08h-18h)</p>
+                  <p><strong>Local:</strong> Sala 205 – Bloco A</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-programacao-1 mt-4">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>Install Fest Linux e Mostra de Sistemas Móveis e Embarcados</h4>
+                  <p class="line-0">Os responsáveis pelo Minicurso “Install Fest Linux e Mostra de Sistemas Móveis e
+                    Embarcados”
+                    comunica que os inscritos devem comparecer no dia 17/10 (quarta-feira) às 8h no Laboratório 301
+                    para início das atividades</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-programacao-1 mt-4">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>Palestra Cancelada</h4>
+                  <p class="line-0"><strong>Título:</strong> Geografia Econômica de Itacoatiara: Da Inserção no
+                    Processo de Globalização às Mudanças na Vida Urbana a Partir do Consumo de Motocicleta</p>
+                  <p><strong>Palestrante:</strong> Edinilce Ferreira Cruz Mendes</p>
+                  <p><strong>Data/Horário:</strong> 16/10 (10h - 11h)</p>
+                  <p><strong>Local:</strong> Auditório - Bloco A</p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-programacao-1 mt-4">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>Mudança de Local e Horário</h4>
+                  <p><strong>Título:</strong> Etnobiologia no Rio Iriri-PA</p>
+                  <p><strong>Palestrante:</strong> Edinilce Ferreira Cruz Mendes</p>
+                  <p><strong>Novo Local:</strong> Auditório - Bloco A</p>
+                  <p><strong>Novo Horário:</strong> 19h - 20h</p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-programacao-1 mt-4">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>Minicurso Cancelado</h4>
+                  <p><strong>Título:</strong> Produção de Biocarvão</p>
+                  <p><strong>Palestrante:</strong> Simão Corrêa da Silva</p>
+                  <p><strong>Local:</strong> Comunidade Nossa Senhora da Conceição</p>
+                </div>
+              </div>
+            </div>
+            <div class="card card-programacao-1 mt-4">
+              <div class="card-body">
+                <div class="aviso">
+                  <h4>Palestra Cancelada</h4>
+                  <p><strong>Título:</strong> Utilização de Biocarvão na Manutenção da Fertilidade do Solo na
+                    Olericultura</p>
+                  <p><strong>Palestrante:</strong> Simão Corrêa da Silva</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card mt-4">
-        <div class="card-body">
-          <div class="aviso">
-            <h4>Minicurso Cancelado</h4>
-            <p><strong>Título:</strong> Produção de Biocarvão</p>
-            <p><strong>Palestrante:</strong> Simão Corrêa da Silva</p>
-            <p><strong>Local:</strong> Comunidade Nossa Senhora da Conceição</p>
-          </div>
-        </div>
-      </div>
-      <div class="card mt-4">
-        <div class="card-body">
-          <div class="aviso">
-            <h4>Mudança de Local e Horário</h4>
-            <p><strong>Título:</strong> Etnobiologia no Rio Iriri-PA
-            </p>
-            <p><strong>Palestrante:</strong> Bruno Feerezim Morales</p>
-            <p><strong>Nova Local: </strong> Auditório - Bloco A</p>
-            <p>
-              <p><strong>Nova Horário: </strong> 19h - 20h</p>
-            </p>
-          </div>
-        </div>
-      </div>
+
+
+
     </div>
   </section>
   <section id="app" class="mt-5">

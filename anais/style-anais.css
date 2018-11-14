@@ -1,0 +1,75 @@
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+.logo-titulo {
+  background-image: url('../assets/images/background_principal.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding: 50px 0;
+}
+.logo-titulo h2 {
+  margin-top: 25px;
+  color: #fff;
+}
+
+.page-title {
+  margin-top: 30px;
+}
+li {
+  text-align: justify;
+}
+p {
+  text-align: justify;
+  line-height: 20px;
+}
+nav {
+  background-color: #6035bb;
+  height: 50px;
+}
+nav a {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 5px 10px;
+
+  font-weight: bold;
+}
+nav a:hover {
+  color: #f8a300;
+  font-weight: bold;
+  border-bottom: 2px solid #f8a300;
+}
+
+.title {
+  font-weight: bold;
+  margin: 25px 0 !important;
+}
+.comissao p {
+  line-height: 5px;
+}
+
+footer {
+  background-color: transparent;
+  text-align: justify;
+  margin-top: 30px;
+}
+footer h4 {
+  font-size: 20px;
+  margin: 20px 0;
+  border-bottom: #6035bb 2px solid;
+  text-align: center;
+}
+footer p {
+  line-height: 10px;
+}
+footer img {
+  margin: 20px;
+}
